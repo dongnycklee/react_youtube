@@ -1,5 +1,4 @@
 {
-  "homepage": "https://dongnycklee.github.io/react_youtube",
   "name": "template",
   "version": "0.1.0",
   "private": true,
@@ -39,5 +38,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://github.com/dongnycklee/react_youtube/"
 }
