@@ -1,5 +1,5 @@
-import styles from './search_header.module.css';
-import React, { memo, useRef } from 'react';
+import styles from "./search_header.module.css";
+import React, { memo, useRef } from "react";
 
 const SearchHeader = memo(({ onSearch }) => {
   const inputRef = useRef();
@@ -11,8 +11,8 @@ const SearchHeader = memo(({ onSearch }) => {
     handleSearch();
   };
 
-  const onKeyPress = event => {
-    if (event.key === 'Enter') {
+  const onKeyPress = (event) => {
+    if (event.key === "Enter") {
       handleSearch();
     }
   };
@@ -20,7 +20,7 @@ const SearchHeader = memo(({ onSearch }) => {
     <header className={styles.header}>
       <div className={styles.logo}>
         <img className={styles.img} src="/images/logo.png" alt="logo" />
-        <h1 className={styles.title}>Youtube</h1>
+        <h1 className={styles.title}>동튜브</h1>
       </div>
       <input
         ref={inputRef}
